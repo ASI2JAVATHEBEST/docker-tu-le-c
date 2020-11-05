@@ -1,0 +1,2 @@
+ARG NODE_VERSION
+FROM php:${NODE_VERSION}-alpine
