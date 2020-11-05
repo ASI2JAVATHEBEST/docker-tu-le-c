@@ -113,6 +113,5 @@ services:
         - backend
       volumes:
         - ${DATA_PATH_HOST}:/app
-        - /app/node_modules
       environment:
         - CHOKIDAR_USEPOLLING=true
