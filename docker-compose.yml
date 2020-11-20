@@ -97,7 +97,7 @@ services:
         - frontend
         - backend
       volumes:
-        - ${DATA_PATH_HOST}:/usr/local/tomcat
+        - ${DATA_PATH_HOST}:/usr/local/tomcat/webapps
 
   ### react ####################################################
     react:
