@@ -98,7 +98,6 @@ services:
         - backend
       volumes:
         - ${DATA_PATH_HOST}:/usr/local/tomcat
-        - ${DATA_PATH_HOST}:/usr/local/tomcat/temp
 
   ### react ####################################################
     react:
